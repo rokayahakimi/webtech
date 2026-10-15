@@ -2,7 +2,51 @@
 
 /* === tokens === */
 :root {
-
+    --color-text: #282827;
+    --color-button: black;
+    --color-button-text: white;
+    --color-yellow: #fccc00;
 }
 
 /* === your rules === */
+body {
+    text-align: center;
+    padding-top: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2, p, a {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    max-width: 12rem;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+p {
+    max-width: 28rem;
+    font-size: 0.75rem;
+    color: var(--color-text);
+}
+
+a {
+    display: inline-block;
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-button);
+    color: var(--color-button-text);
+    padding: 0.3rem;
+    text-decoration: none;
+
+}
+
+span {
+    border-bottom: 0.25rem solid var(--color-yellow);
+    border-radius: 0.5rem;
+}
